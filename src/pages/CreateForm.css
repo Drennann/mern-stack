@@ -1,0 +1,48 @@
+form input {
+    background-color: #212121;
+    width: 200px;
+    text-align: center;
+    border: 1px solid #414141;
+    margin: auto;
+    color: #d0d0d0;
+}
+
+form textarea{
+    background-color: #212121;
+    width: 200px;
+    text-align: center;
+    border: 1px solid #414141;
+    margin: auto;
+    color: #d0d0d0;
+}
+
+.title{
+    height: 50px;
+}
+.description{
+    height: 250px;
+}
+
+.CreateForm{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    height: 50px;
+    width: 70px;
+}
+.CreateFormContainer{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+
+.ButtonSection{
+    margin:auto
+}
+
+*:focus-visible{
+    outline: none;
+}

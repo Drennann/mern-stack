@@ -1,0 +1,23 @@
+.TasksForm{
+    height: 85vh;
+    width: 100vw;
+    color: #d0d0d0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    justify-items: center;
+    overflow-y: scroll;
+}
+.ButtonContainer{
+    display: grid;
+    height: 15vh;
+    width: 100vw;
+}
+
+.TasksForm::-webkit-scrollbar {
+    width: 10px;
+}
+.TasksForm::-webkit-scrollbar-thumb{
+    background-color: #080808;
+    border-radius: 30%;
+}

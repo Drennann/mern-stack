@@ -1,0 +1,19 @@
+#createTask{
+    background-color: #212121;
+    height: 70px;
+    width: 140px;
+    border: 1px solid #414141;
+    color: #d0d0d0;
+    font-size: 15px;
+    margin: auto;
+}
+
+button{
+    background-color: #212121;
+    height: 70px;
+    width: 140px;
+    border: 1px solid #414141;
+    color: #d0d0d0;
+    font-size: 15px;
+    margin: auto;
+}
